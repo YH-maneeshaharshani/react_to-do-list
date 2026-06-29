@@ -20,6 +20,10 @@ A functional and responsive To-Do List application built with **React** and **Vi
 
 ### The Core Logic
 The app manages tasks using a `tasks` array state. Key functions include:
+
+
+<img width="1895" height="887" alt="image" src="https://github.com/user-attachments/assets/009846aa-a197-4e8e-aea3-3704337878f2" />
+
 * `addTask()`: Uses the spread operator `[...tasks]` to append new items.
 * `deleteTask(index)`: Uses `.filter()` to remove items without mutating the original state.
 * `moveTaskUp/Down(index)`: Swaps array elements efficiently to change task priority.
